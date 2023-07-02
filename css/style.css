@@ -41,8 +41,9 @@ a{
 }
 
 .container-flex {
-    margin: auto;
+    margin: auto 15%;
     max-width: 1200px;
+    width: 100%;
     overflow: auto;
     padding: 0 20px;
 }
