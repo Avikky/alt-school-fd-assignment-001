@@ -7,7 +7,7 @@
     <title>SCISSOR</title>
 </head>
 <body>
-    <header>
+    <header style="background-color: #fff;">
         <nav>
             <div>
                 <a href="">
@@ -16,83 +16,84 @@
             </div>
             <div class="nav-links">
                 <ul class="link-list">
-                    <li>My URLs</li>
-                    <li>Features</li>
-                    <li>Pricing</li>
-                    <li>Analytics</li>
-                    <li>FAQs</li>
+                    <li><a href="#" class="active-link">My URLs</a> </li>
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">Analytics</a></li>
+                    <li><a href="#">FAQs</a></li>
                 </ul>
             </div>
             <div class="nav-btn">
-                <a href="" class="btn-inactive">Log in</a>
-                <a href="btn-active">Try for free</a>
+                <a href="" class="btn-flat">Log in</a>
+                <a href="" class="btn">Try for free</a>
             </div>
         </nav>
-        <div class="hero-section">
+        <div class="hero-section container">
             <h2>
                 Optimize Your Online Experience with Our Advanced
-                <span>URL Shortening</span>
-                <span></span>
+                <span class="stroke text-primary"  class="text-primary">URL Shortening</span>
+                <!-- <img src="/assets/stroke.svg" alt=""> -->
                 Solution
+                
             </h2>
             <p>
                 Personalize your shortened URLs to align with your brand identity. Utilize custom slugs, branded links, and domain customization options to reinforce your brand presence and enhance user engagement.
             </p>
-            <p>
-                <a href="" class="btn-active">Sign Up</a>
-                <a href="" class="btn-inactive">Learn more</a>
+            <p class="py-3">
+                <a href="" class="btn">Sign Up</a>
+                <a href="" class="btn-flat">Learn more</a>
             </p>
         </div>
         <div class="hero-sectino2">
-            <div>
-                <img src="/assets/hero-vector.svg" alt="">
-                <img src="/assets/hero-img.png" alt="">
+            <div class="img-import">
+                <img class="vector" src="/assets/hero-vector.svg" alt="">
+                <img class="main-pic" src="/assets/hero-img.png" alt="">
             </div>
         </div>
-        <div>
+       
             <img src="/assets/hero-img2.png" alt="">
-        </div>
     </header>
-    <main>
-        <section class="insight">
+    <main style="background-color: #F9FBFD;">
+        <section class="insight container-flex my-3 mx-3 pb-5">
             <div class="col-4">
                 <h3>
                     One Stop.
-                    Four <span class="primary">Possibilities</span>.
+                    Four <span class="text-primary">Possibilities</span>.
                 </h3>
             </div>
             <div class="col-8">
                 <p>
-                    <strong>3M</strong>
+                    <strong class="insight-typo">3M</strong><br>
                    <span>Active users</span>
                 </p>
                 <p>
-                    <strong>60M</strong>
+                    <strong class="insight-typo">60M</strong><br>
                    <span>Links and QR codes created</span>
                 </p>
                 <p>
-                    <strong>1B</strong>
+                    <strong class="insight-typo">1B</strong> <br>
                    <span>Clicked and scanned connections</span>
                 </p>
                 <p>
-                    <strong>300k</strong>
+                    <strong class="insight-typo">300k</strong> <br>
                    <span>API integrations</span>
                 </p>
             </div>
         </section>
-        <section class="about">
-            <div class="col-4">
+        <div class="space"></div>
+        <section class="about container-flex">
+            <div class="col-4 mx-3">
                 <h3>
-                    <span><img src="/assets/about-line.svg" alt=""></span>
-                    Why choose Scissors
+                    <span class="px-1"><img src="/assets/about-line.svg" alt=""></span>
+                    Why choose <span class="text-primary px-1"> scissors</span> 
                 </h3>
-                <p>
+                <p class="px-5">
                     Scissors is the hub of everything that has to do with your link management. We shorten your URLs, allow you creating custom ones for your personal, business, event usage. Our swift QR code creation, management and usage tracking with advance analytics for all of these is second to none. ;
                 </p>
             </div>
             <div class="col-8">
-                <div class="gird-container">
-                    <div class="grid">
+                <div class="grid-container">
+                    <div class="grid-item">
                         <p class="icon">
                             <img src="/assets/link-icon.svg" alt="link-icon">
                         </p>
@@ -101,7 +102,7 @@
                             Scissor allows you to shorten URLs of your business, events. Shorten your URL at scale, URL redirects.
                         </p>
                     </div>
-                    <div class="grid">
+                    <div class="grid-item">
                         <p class="icon">
                             <img src="/assets/edit-icon.svg" alt="custom-icon">
                         </p>
@@ -110,7 +111,7 @@
                             With Scissor, you can create custom URLs, with the length you want! A solution for socials and businesses.
                         </p>
                     </div>
-                    <div class="grid">
+                    <div class="grid-item">
                         <p class="icon">
                             <img src="/assets/grid-icon.svg" alt="QRcode-icon">
                         </p>
@@ -119,7 +120,7 @@
                             Generate QR codes to your business, events. Bring your audience and customers to your doorstep with this scan and go solution.
                         </p>
                     </div>
-                    <div class="grid">
+                    <div class="grid-item">
                         <p class="icon">
                             <img src="/assets/life-icon.svg" alt="Analytics-icon">
                         </p>
@@ -132,18 +133,19 @@
              
             </div>
         </section>
+        <div class="space"></div>
         <section class="pricing">
             <div class="price-heading">
                 <h3>
-                    <img src="/assets/about-line.svg" alt="">
-                    A <span>price perfect</span> for your needs.
+                    <span class="px-1"><img src="/assets/about-line.svg" alt=""></span>  
+                    A <span class="text-primary px-1">price perfect</span> for your needs.
                 </h3>
-                <p>
+                <p class="px-5">
                     From catering for your personal, business, event, socials needs, you can be rest assured we have you in mind in our pricing.
                 </p>
             </div>
-            <div class="prices">
-                <div class="basic">
+            <div class="prices py-3">
+                <div class="basic container  grid">
                     <p>Basic</p>
                     <h3>Free</h3>
                     <p class="price-desc">Free plan for all users</p>
@@ -155,19 +157,19 @@
                         <li><img src="/assets/check-circle.svg" alt=""> <span>Ad-supported URL</span></li>
                     </ul>
                 </div>
-                <div class="prof">
+                <div class="prof container grid">
                     <p>Professional</p>
                     <h3>$15/month</h3>
                     <p class="price-desc">Ideal for business creators</p>
                     <ul>
-                        <li><img src="/assets/check-circle.svg" alt=""> <span> Enhanced link Analytics</span></li>
+                        <li><img src="/assets/check-circle.svg"  alt=""> <span> Enhanced link Analytics</span></li>
                         <li><img src="/assets/check-circle.svg" alt=""> <span> Custom Branded Domains</span></li>
                         <li><img src="/assets/check-circle.svg" alt=""> <span> Advanced Link Customization</span></li>
                         <li><img src="/assets/check-circle.svg" alt=""> <span>Priority Support</span></li>
                         <li><img src="/assets/check-circle.svg" alt=""> <span>Ad-free Experience</span></li>
                     </ul>
                 </div>
-                <div class="teams">
+                <div class="teams container grid">
                     <p>Teams</p>
                     <h3>$25/month</h3>
                     <p class="price-desc">Share with upto 10 users</p>
@@ -181,25 +183,32 @@
                 </div>
             </div>
             <div class="price-btn">
-                <a href="" class="btn-round-inactive">Get Custom Pricing</a>
-                <a href="" class="btn-round-active">Select Pricing</a>
+                <a href="" class="btn-outline">Get Custom Pricing</a>
+                <a href="" class="btn">Select Pricing</a>
             </div>
         </section>
+
         <section class="link-conversion">
-            <div class="svg-holder1"></div>
+            <div>
+                <img style="border: 2px solid red;" width="100%" height="100%" src="/assets/link-vector2.svg" alt="">
+            </div>
+            
             <div class="form-container">
-                <div class="row">
-                    <input type="text" name="url" placeholder="Past URL here..." id="">
+                <div class="row" style="display: block;">
+                    <input type="text" class="form-control" name="url" placeholder="Past URL here..." id="">
+                </div><br>
+                <div class="row-mid" style="display: flex; padding: 10px;">
+                    <input class="col-6" class="form-control"  type="text" name="url" placeholder="Past URL here..." id="">
+                    <input class="col-6" class="form-control"  type="text" name="url" placeholder="Past URL here..." id="">
                 </div>
                 <div class="row">
-                    <input class="col-6" type="text" name="url" placeholder="Past URL here..." id="">
-                    <input class="col-6" type="text" name="url" placeholder="Past URL here..." id="">
-                </div>
-                <div class="row">
-                    <button class="trim-btn">Trim URL</button>
+                    <button class="btn">Trim URL</button>
                 </div>
             </div>
-            <div class="svg-holder2"></div>
+
+            <div>
+                <img  style="border: 2px solid red;" width="100%" height="100%" src="/assets/link-vector1.svg" alt="">
+            </div>
         </section>
        <!--- FAQs -->
         <section>
